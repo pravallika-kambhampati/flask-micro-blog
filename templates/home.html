@@ -1,0 +1,55 @@
+{% extends "base2.html" %}
+{% block content %}    
+<br>
+<div class="container">
+Login/Register here !
+<br>
+<br>
+<form action="{{ url_for('handle_data') }}" method="POST">
+ 
+  <div class="row">
+    <div class="form-group col-lg-3">
+        <label for="code">Username</label>
+        <input type="text" name="username" class="form-control" />
+    </div>
+</div>
+
+<div class="row">
+    <div class="form-group col-lg-3 ">
+        <label for="code">Email</label>
+        <input type="text" name="email" class="form-control input-normal" />
+        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>   
+     </div>
+</div>
+
+
+<div class="row">
+  <div class="form-group col-lg-3 ">
+      <label for="code">Password</label>
+      <input type="password" name="pass" class="form-control input-normal" />
+  </div>
+</div>
+
+<div class="row">
+   &nbsp; &nbsp; &nbsp;  <button type="submit" class="btn btn-primary">Register!</button>
+</div>
+
+  
+</form>
+
+
+
+
+
+
+
+  <br>
+  Already a User ? <a href="{{url_for('log_in')}}">Login here</a>
+
+
+
+</div>
+
+
+
+{% endblock %}

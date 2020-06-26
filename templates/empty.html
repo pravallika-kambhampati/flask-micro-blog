@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="container">
+    {% if message %}
+
+    Thanks for your contribution !
+    
+    {% endif %}
+    {% if message2 %}
+    
+    Sorry, it's a wrong password!! Try again!
+    
+    {% endif %}
+</div>
+{% endblock %}
