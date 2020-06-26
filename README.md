@@ -1,4 +1,4 @@
-# Flask Micro Blog
+# :page_facing_up: Flask Micro Blog
  
 ### A flask app that allows you to register/login and make a blog post once a day. 
 
@@ -8,7 +8,7 @@
 - View all posts
 - Logout
 
-### Live Demo
+### :mega: Live Demo
 
 </br>
 
