@@ -7,6 +7,9 @@
 - Make a blog post
 - View all posts
 - Logout
+<br>
+Live Demo:
+<br>
 
 ![](https://github.com/pravzzyy/flask-micro-blog/blob/master/micro-blog.gif)
 
