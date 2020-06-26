@@ -7,7 +7,7 @@
 - Make a blog post
 - View all posts
 - Logout
-<br>
+
 ### Live Demo
 
 </br>
