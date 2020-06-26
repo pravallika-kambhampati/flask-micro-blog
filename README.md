@@ -8,7 +8,7 @@
 - View all posts
 - Logout
 
-[](https://github.com/pravzzyy/flask-micro-blog/blob/master/micro-blog.gif)
+![](https://github.com/pravzzyy/flask-micro-blog/blob/master/micro-blog.gif)
 
 
 
